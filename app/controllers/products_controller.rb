@@ -2,7 +2,7 @@ require 'pry'
 class ProductsController < ApplicationController
 
   def add
-
+    cart << params[:item]
   end
 
   def index
