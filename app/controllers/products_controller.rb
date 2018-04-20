@@ -4,6 +4,7 @@ class ProductsController < ActionController::Base
   end
 
   def index
-  end 
+    @cart = cart 
+  end
 
 end
