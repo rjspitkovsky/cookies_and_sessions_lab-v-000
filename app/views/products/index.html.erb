@@ -1,1 +1,3 @@
-<%= @cart.to_s %> 
+<% @cart.each do |item| %>
+<%= item.to_s %>
+<% end %> 
