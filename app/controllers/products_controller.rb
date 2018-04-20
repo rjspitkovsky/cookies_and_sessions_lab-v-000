@@ -1,10 +1,11 @@
 class ProductsController < ActionController::Base
 
   def add
+    
   end
 
   def index
-    @cart = cart 
+    @cart = cart
   end
 
 end
