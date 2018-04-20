@@ -3,7 +3,7 @@ class ProductsController < ApplicationController
 
   def add
     cart << params[:product]
-    render :index 
+    redirect_to '/'
   end
 
   def index
