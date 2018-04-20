@@ -1,3 +1,4 @@
+require 'pry'
 class ProductsController < ApplicationController
 
   def add
@@ -6,6 +7,7 @@ class ProductsController < ApplicationController
 
   def index
     @cart = session[:cart]
+    binding.pry
   end
 
 end
