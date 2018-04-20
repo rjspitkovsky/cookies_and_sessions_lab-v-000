@@ -7,7 +7,7 @@ class ProductsController < ApplicationController
 
   def index
     @cart = session[:cart]
-    binding.pry
+
   end
 
 end
