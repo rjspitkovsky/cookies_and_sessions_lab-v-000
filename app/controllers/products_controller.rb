@@ -1,3 +1,9 @@
 class ProductsController < ActionController::Base
 
-end 
+  def add
+  end
+
+  def index
+  end 
+
+end
