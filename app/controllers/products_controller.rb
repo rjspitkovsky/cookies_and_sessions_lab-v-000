@@ -5,7 +5,7 @@ class ProductsController < ApplicationController
   end
 
   def index
-    cart
+    @cart = cart 
   end
 
 end
